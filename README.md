@@ -1,5 +1,9 @@
 # chkpass
-Stand alone version of chkpass type for PG 11+
+
+PostgreSQL versions lower than 11 come bundled with chkpass extension for storing encrtypted passwords.
+This was removed from Postgres 11 and later. This is a stand alone version for use with those.
+
+See [documentaion for chkpass|https://www.postgresql.org/docs/10/chkpass.html].
 
 Installation
 ------------
