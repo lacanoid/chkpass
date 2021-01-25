@@ -8,6 +8,10 @@ See [documentaion for chkpass](https://www.postgresql.org/docs/10/chkpass.html).
 Installation
 ------------
 
+Install appropriate Postgres server development package
+
+    apt-get install postgresql-server-dev-12
+
 To build and install this module:
 
     make
@@ -19,7 +23,7 @@ or selecting a specific PostgreSQL installation:
     make PG_CONFIG=/some/where/bin/pg_config
     make PG_CONFIG=/some/where/bin/pg_config install
     make PG_CONFIG=/some/where/bin/pg_config installcheck
-    make PGPORT=5432 PG_CONFIG=/usr/lib/postgresql/10/bin/pg_config clean install installcheck
+    make PGPORT=5432 PG_CONFIG=/usr/lib/postgresql/11/bin/pg_config clean install installcheck
 
 Make sure you set the connection parameters like PGPORT right for testing.
 
