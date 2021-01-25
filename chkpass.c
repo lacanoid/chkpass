@@ -17,7 +17,7 @@
 #endif
 
 #include "fmgr.h"
-#include "utils/backend_random.h"
+//#include "utils/backend_random.h"
 #include "utils/builtins.h"
 
 PG_MODULE_MAGIC;
