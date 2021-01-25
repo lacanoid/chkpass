@@ -10,7 +10,7 @@ Installation
 
 Install appropriate Postgres server development package
 
-    apt-get install postgresql-server-dev-12
+    apt-get install postgresql-server-dev-11
 
 To build and install this module:
 
