@@ -10,7 +10,7 @@ Installation
 
 Install appropriate Postgres server development package
 
-    apt-get install postgresql-server-dev-11
+    apt-get install postgresql-server-dev-12
 
 To build and install this module:
 
@@ -23,7 +23,7 @@ or selecting a specific PostgreSQL installation:
     make PG_CONFIG=/some/where/bin/pg_config
     make PG_CONFIG=/some/where/bin/pg_config install
     make PG_CONFIG=/some/where/bin/pg_config installcheck
-    make PGPORT=5432 PG_CONFIG=/usr/lib/postgresql/11/bin/pg_config clean install installcheck
+    make PGPORT=5432 PG_CONFIG=/usr/lib/postgresql/12/bin/pg_config clean install installcheck
 
 Make sure you set the connection parameters like PGPORT right for testing.
 
